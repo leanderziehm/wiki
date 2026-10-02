@@ -1,14 +1,24 @@
-```query
-section:(todo)
-```
----
-2026-09-26
 
-# Todo
+2026-10-03
+
+01:54
+ill go to bead not but tomorrow pdfs zotero, then structure to markdown table or csv and upload to github.
+pdf text to tts 
+
+
+video frame extraction 
+/var/home/user/Videos/h.webm
+
+
+2026-10-02
+make work() work
+make nvim close to vscode
+done: docusaurus obsidian
+
+2026-09-26
 
 splunk
 wazuh
-
 
 vscode vs vim vs neovim with extension in container.
 
@@ -83,3 +93,11 @@ https://github.com/leanderziehm/dotfiles/blob/main/other/sync/default/.vimrc
 
 ---
 
+
+
+
+
+
+```query
+section:(todo)
+```

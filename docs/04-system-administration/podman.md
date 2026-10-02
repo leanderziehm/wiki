@@ -190,7 +190,6 @@ podman inspect --format='{{index .RepoDigests 0}}' kalilinux/kali-rolling
 sudo apt install podman-compose
 ```
 
-todo
 
 ## Setup docker repos
 
