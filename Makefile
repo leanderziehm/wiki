@@ -1,3 +1,6 @@
+main:
+	node sidebars_generator.mjs && npm start
+
 start:
 	npm start
 
