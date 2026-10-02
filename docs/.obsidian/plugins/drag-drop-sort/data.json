@@ -1,0 +1,21 @@
+{
+  "orders": {
+    "/": [
+      "Hello.md",
+      "Habits.md",
+      "Todos.md",
+      "Daily Notes.md",
+      "Containers.md",
+      "Keyboard Shortcuts.md",
+      "Nvim.md",
+      "git ssh.md",
+      "termux.md",
+      "beleafs.md",
+      "free cloud.md",
+      "languages.md",
+      "Privacy.md",
+      "tools.md",
+      "other"
+    ]
+  }
+}
