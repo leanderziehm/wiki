@@ -26,18 +26,9 @@ npm run build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-## Deployment
+### Dependencies
 
-Using SSH:
-
-```bash
-USE_SSH=true npm run deploy
+i added serach with:
 ```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> npm run deploy
+npm i docusaurus-lunr-search  --save
 ```
-
-If you are using GitHub Pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

@@ -18,6 +18,10 @@ const config: Config = {
       src: 'https://u.leanderziehm.com/script.js',
       defer: true,
       'data-website-id': 'f6c43e3f-ed36-41a9-a120-c63cf96bf025',
+    },
+    {
+      src: '/js/searchFromUrl.js',
+      defer: true,
     }
   ],
 
@@ -46,6 +50,7 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+  plugins: [require.resolve('docusaurus-lunr-search')],
 
   themeConfig: {
     colorMode: {
@@ -58,7 +63,13 @@ const config: Config = {
         src: 'img/logo.png',
       },
 
-      // items: [
+      
+
+      items: [
+      {
+        type: 'search',
+        position: 'left',
+      },
       //   {
       //     type: 'docSidebar',
       //     sidebarId: 'tutorialSidebar',
@@ -70,7 +81,7 @@ const config: Config = {
       //     label: 'GitHub',
       //     position: 'right',
       //   },
-      // ],
+      ],
     },
     // footer: {
     //   style: 'dark',

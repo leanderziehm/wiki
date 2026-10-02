@@ -7,7 +7,6 @@ const sidebars: SidebarsConfig = {
   "README",
   "Todos",
   "Daily Notes",
-  "Habits",
   "Keyboard Shortcuts",
   "Containers",
   "Nvim",
@@ -18,6 +17,7 @@ const sidebars: SidebarsConfig = {
   "languages",
   "Privacy",
   "tools",
+  "Habits",
   {
     "type": "category",
     "label": "01-full-stack",
