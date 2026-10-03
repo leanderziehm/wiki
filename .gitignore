@@ -1,4 +1,4 @@
-code_archive
+archive_code
 .stfolder
 
 # Dependencies
@@ -26,3 +26,4 @@ docs/.obsidian/core-plugins.json
 docs/.obsidian/workspace.json
 docs/.trash
 docs/.obsidian/workspace-mobile.json
+docs/.obsidian/graph.json
