@@ -1,16 +1,18 @@
+#### spelling:
+
+more here...
 
 
-## English
 
 
-**2026-09-27**
-Simple → Basic → Intermediate → Advanced → Complex → Sophisticated → Expert → Mastery
 
-
-###### spelling:
-
+...  2026-10-03
+figure figour 2026-10-03 22:01
 necessarily necesserally unnessessarily 2026-10-03 14:33
 beliefs beleafs 2026-10-03 10:49
+
+
+
 
 
 ###### Punctuation and Formatting
@@ -21,4 +23,6 @@ Decimal separator: Period (.) for example, 1,000.50
 
 
 
-## Spanish
+#### words:
+
+Simple → Basic → Intermediate → Advanced → Complex → Sophisticated → Expert → Mastery

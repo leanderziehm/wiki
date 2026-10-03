@@ -4,6 +4,15 @@ sidebar_position: 1
 #### 2026-10-03
 
 
+21:58
+figure out how to best config wg to make it easy.
+
+21:34
+astro shadcn
+
+20:47
+how to send passkey over network securely to login?
+
 20:34
 todo: obsidian buttons to insert date and time  
 question: shadcn in my websties how easy is it? does it need react? 

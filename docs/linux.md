@@ -121,3 +121,31 @@ you can install the packages on debian by running:\
 
 **image view:**
 sxiv / nsxiv or feh + CLI scripts:
+
+
+
+## Vpn
+
+
+wireguard
+
+
+```
+sudo dnf install wireguard-tools
+```
+
+
+```
+sudo modprobe iptable_nat
+sudo modprobe ip6table_nat
+```
+
+config:
+delete dns
+AllowedIPs = 10.8.0.0/24
+fedora.local.leanderziehm.com
+
+```
+sudo wg-quick up ~/Downloads/testwg/fedora_toolbox.conf
+sudo wg-quick down ~/Downloads/testwg/fedora_toolbox.conf
+```
