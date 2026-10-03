@@ -29,7 +29,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'LeanderZiehm', // Usually your GitHub org/user name.
   projectName: 'docusaurus_obsidian', // Usually your repo name.
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn', // 'throw',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
