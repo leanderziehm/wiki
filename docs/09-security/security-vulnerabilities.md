@@ -1,3 +1,0 @@
-# Security Vulnerabilities
-
-Code injection
