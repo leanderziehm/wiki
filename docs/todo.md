@@ -1,9 +1,22 @@
 ---
 sidebar_position: 1
 ---
-
-
 #### 2026-10-03
+
+
+20:34
+todo: obsidian buttons to insert date and time  
+question: shadcn in my websties how easy is it? does it need react? 
+explore: linux cli image viewers like feh, qimgv, risteretto, slideshow software, image tagger
+
+20:29
+seperate this images project into its own github project and deploy to vercel:
+https://github.com/leanderziehm/apis/tree/main/03_image-s3-api
+also add feature for different image groups/tags that a image can have.
+
+
+**20:05**
+wikipedia account save articles
 
 **18:23**
 *requirement:* input=website link output=save to offline library that keeps desing and all assests in case website changes 
