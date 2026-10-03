@@ -1,38 +1,20 @@
 {
   "orders": {
     "/": [
+      "_todo_.md",
       "README.md",
-      "Todos.md",
-      "Daily Notes.md",
-      "Keyboard Shortcuts.md",
-      "Containers.md",
-      "Nvim.md",
-      "git ssh.md",
-      "termux.md",
-      "beleafs.md",
+      "INDEX.md",
+      "_homelab_.md",
+      "_keyboard-shortcuts_.md",
+      "_containers_.md",
+      "_linux_.md",
+      "beliefs beleafs.md",
+      "_languages_.md",
+      "others",
       "free cloud.md",
-      "languages.md",
-      "Privacy.md",
-      "tools.md",
-      "Habits.md",
-      "01-full-stack",
-      "03-programming-languages",
-      "04-system-administration",
-      "05-linux",
-      "07-networking",
-      "08-terminal-cli-tools",
-      "09-security",
-      "10-computer-science-concepts",
-      "ai",
-      "cloud",
-      "personal",
-      "projects",
-      "world-knowlege",
-      "other",
-      "SUMMARY.md"
-    ],
-    "other": [
-      "AI"
+      "_tools_.md",
+      "_tool_nvim_.md",
+      "_vscode_.md"
     ]
   }
 }
