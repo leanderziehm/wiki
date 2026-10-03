@@ -111,3 +111,13 @@ you can install the packages on debian by running:\
 |         |
 
 ##### RHEL
+
+
+
+
+
+### linux user software
+
+
+**image view:**
+sxiv / nsxiv or feh + CLI scripts:

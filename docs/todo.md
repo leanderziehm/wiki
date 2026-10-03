@@ -1,8 +1,22 @@
 
 #### 2026-10-03
 
+
+**14:57**
+qrcode to transfer secret credentials and then connect to each other like passkey or ssh public key or password after authenticating with biometrics from phone.
+apps that authenticate user based on biometrics from phone.
+
+
+**14:43**
+docs
+find(selfhost): saveing tool for offline downloading web pages of current state.
+todo: deploy serchnx on fedora
+
+
+**14:34**
+question(obsidian): insert both time and date at the same time and automatic bold
+
 **13:28**
-omiserch
 frontmatter
 move lines with alt? vim motions?
 immich search for what the permission means

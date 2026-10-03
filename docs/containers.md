@@ -1,4 +1,10 @@
 
+
+go into container 
+```
+podman exec -it homepage sh
+```
+
 ## podman restarts
 
 ```
