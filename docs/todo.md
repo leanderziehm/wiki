@@ -5,6 +5,16 @@ sidebar_position: 1
 
 #### 2026-10-03
 
+**18:23**
+*requirement:* input=website link output=save to offline library that keeps desing and all assests in case website changes 
+*solutions:*
+compose: ArchiveBox
+SingleFile-CLI Docker:  
+```
+docker run --rm -v $(pwd):/usr/src/app/out capsulecode/singlefile "https://example.com" my_design.html
+```
+compose: Karakeep / Hoarder
+
 **17:24**
 web bookmarks in obsidian or a different tool? 
 
@@ -42,7 +52,7 @@ homelab
 imich, r2
 ssh into server. podman restart. arp documentation, script scanning ports
 
-
+---
 
 **01:54**
 ill go to bead not but tomorrow pdfs zotero, then structure to markdown table or csv and upload to github.
