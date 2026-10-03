@@ -1,6 +1,12 @@
+---
+sidebar_position: 1
+---
+
 
 #### 2026-10-03
 
+**17:24**
+web bookmarks in obsidian or a different tool? 
 
 **14:57**
 qrcode to transfer secret credentials and then connect to each other like passkey or ssh public key or password after authenticating with biometrics from phone.

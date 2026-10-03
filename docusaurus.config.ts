@@ -38,12 +38,25 @@ const config: Config = {
     [
       'classic',
       {
-        docs: {
-          sidebarPath: './sidebars.ts',
-          routeBasePath: '/',
-          numberPrefixParser: false, 
-          // editUrl:'https://github.com/leanderziehm/docusaurus_obsidian/tree/main/packages/create-docusaurus/templates/shared/',
+      docs: {
+        sidebarPath: './sidebars.ts',
+        routeBasePath: '/',
+        numberPrefixParser: false,
+         // editUrl:'https://github.com/leanderziehm/docusaurus_obsidian/tree/main/packages/create-docusaurus/templates/shared/',
+
+        sidebarItemsGenerator: async ({
+          defaultSidebarItemsGenerator,
+          ...args
+        }) => {
+          return defaultSidebarItemsGenerator({
+            ...args,
+            docs: args.docs.map((doc) => ({
+              ...doc,
+              sidebarPosition: doc.sidebarPosition ?? 50,
+            })),
+          });
         },
+      },
         // theme: {
         //   customCss: './src/css/custom.css',
         // },
