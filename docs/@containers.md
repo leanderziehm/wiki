@@ -1,7 +1,4 @@
 
-# Podman
-
-
 ## podman restarts
 
 ```

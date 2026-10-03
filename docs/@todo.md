@@ -1,6 +1,14 @@
 
 #### 2026-10-03
 
+**13:28**
+omiserch
+frontmatter
+move lines with alt? vim motions?
+immich search for what the permission means
+better image viewer for google images.
+
+
 **12:38**
 Done: setup obsidian with syncthing with phones.
 

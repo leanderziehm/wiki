@@ -1,6 +1,10 @@
-# git
 
-## git
+setup username and email:
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "yourname@emailexample.com"
+```
+
 
 remove files from a commit that wasn't pushed yet:
 

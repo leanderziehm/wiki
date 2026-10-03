@@ -80,7 +80,6 @@
 
 ## 08-Terminal CLI Tools
 
-* [git](08-terminal-cli-tools/git.md)
 * [Tmux](08-terminal-cli-tools/tmux.md)
 * [vim](08-terminal-cli-tools/vim.md)
 * [nmap](08-terminal-cli-tools/nmap.md)

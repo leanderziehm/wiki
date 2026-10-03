@@ -1,32 +1,32 @@
 
-| shortcut         | action                           | software         | type       |
-| ---------------- | -------------------------------- | ---------------- | ---------- |
-| super + i        | settings                         | kde              |            |
-| ctrl + alt + t   | open terminal                    | kde              |            |
-| super + arrows   | move window and resize           | kde              |            |
-| super + t        | open werzterm and vim.           | kde              | custom     |
-| ctrl + 1         | zoom in                          | audacity         |            |
-| space            | start play audio                 | audacity         |            |
-| p                | toggle pause and play            | audacity         |            |
-| x                | move cursor to playhead          | audacity         |            |
-| ctrl + i         | split audio at cursor            | audacity         |            |
-| ctrl + shift + e | export audio                     | audacity         |            |
-| ctrl + n         | new note, page                   | vscode, obsidian |            |
-| ctrl + n         | new seperate chrome window       | chrome           |            |
-| ctrl + p         | file search by name              | vscode           |            |
-| ctrl + shift + p | command palette                  | vscode           |            |
-| ctrl + shift + f | search files only by content     | vscode           |            |
-| ctrl + p         | search files by name and content | obsidian         | omnisearch |
-| ctrl + shift + p | command palette                  | obsidian         | custom     |
-| ctrl + shift + f | search files by content and name | obsidina         |            |
-| alt + home       | open homepage or empty tab       | chrome           |            |
-| ctrl + shift + b | toggle sidebar                   | obsidian         | custom     |
-| ctrl + b         | toggle sidebar                   | vscode           |            |
-|                  |                                  |                  |            |
-|                  |                                  |                  |            |
-|                  |                                  |                  |            |
-|                  |                                  |                  |            |
-|                  |                                  |                  |            |
+| shortcut         | action                           | software         | type   |
+| ---------------- | -------------------------------- | ---------------- | ------ |
+| super + i        | settings                         | kde              |        |
+| ctrl + alt + t   | open terminal                    | kde              |        |
+| super + arrows   | move window and resize           | kde              |        |
+| super + t        | open werzterm and vim.           | kde              | custom |
+| ctrl + 1         | zoom in                          | audacity         |        |
+| space            | start play audio                 | audacity         |        |
+| p                | toggle pause and play            | audacity         |        |
+| x                | move cursor to playhead          | audacity         |        |
+| ctrl + i         | split audio at cursor            | audacity         |        |
+| ctrl + shift + e | export audio                     | audacity         |        |
+| ctrl + n         | new note, page                   | vscode, obsidian |        |
+| ctrl + n         | new seperate chrome window       | chrome           |        |
+| ctrl + p         | file search by name and path     | vscode           |        |
+| ctrl + p         | search files by name and path    | obsidian         | custom |
+| ctrl + shift + p | command palette                  | vscode           |        |
+| ctrl + shift + p | command palette                  | obsidian         | custom |
+| ctrl + shift + f | search files only by content     | vscode           |        |
+| ctrl + shift + f | search files by content and name | obsidina         |        |
+| alt + home       | open homepage or empty tab       | chrome           |        |
+| ctrl + shift + b | toggle sidebar                   | obsidian         | custom |
+| ctrl + b         | toggle sidebar                   | vscode           |        |
+| F7               | carret browsing mode             | chrome           |        |
+|                  |                                  |                  |        |
+|                  |                                  |                  |        |
+|                  |                                  |                  |        |
+|                  |                                  |                  |        |
 
 
 
