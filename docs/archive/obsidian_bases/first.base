@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - sidebar_position
+    sort:
+      - property: sidebar_position
+        direction: ASC

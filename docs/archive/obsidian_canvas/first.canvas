@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"81cec479d4cb6d4a","x":-198,"y":-627,"width":400,"height":400,"type":"file","file":"todo.md"},
+		{"id":"7740dd75b5a4e598","x":-120,"y":-60,"width":250,"height":60,"type":"text","text":"hello"},
+		{"id":"a7750ec06807a8c9","x":-122,"y":123,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"84d686df2629dab2","fromNode":"7740dd75b5a4e598","fromSide":"bottom","toNode":"a7750ec06807a8c9","toSide":"top"},
+		{"id":"32112f7a00ee0e7e","fromNode":"7740dd75b5a4e598","fromSide":"top","toNode":"81cec479d4cb6d4a","toSide":"bottom"}
+	]
+}

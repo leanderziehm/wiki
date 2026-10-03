@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": true,
+  "showAttachments": true,
+  "hideUnresolved": true,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "line:(todo)",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "git",
+      "color": {
+        "a": 1,
+        "rgb": 25343
+      }
+    },
+    {
+      "query": "podman",
+      "color": {
+        "a": 1,
+        "rgb": 16711914
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 0.320490350531705,
+  "lineSizeMultiplier": 0.541,
+  "collapse-forces": false,
+  "centerStrength": 0.315970854667192,
+  "repelStrength": 6.52028357621111,
+  "linkStrength": 0.489365892083497,
+  "linkDistance": 30,
+  "scale": 0.2649273162533131,
+  "close": false
+}
