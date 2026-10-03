@@ -1,4 +1,5 @@
-archive
+code_archive
+.stfolder
 
 # Dependencies
 /node_modules
@@ -24,3 +25,4 @@ docs/.obsidian/app.json
 docs/.obsidian/core-plugins.json
 docs/.obsidian/workspace.json
 docs/.trash
+docs/.obsidian/workspace-mobile.json
