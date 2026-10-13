@@ -1,3 +1,45 @@
+
+### create backup user
+
+
+*not best practice but works:* 
+making backup user superuser/admin
+```
+CREATE ROLE backup_user
+    WITH LOGIN
+    SUPERUSER
+    PASSWORD 'REPLACE_WITH_A_STRONG_PASSWORD';
+```
+
+
+
+
+```
+CREATE ROLE backup_user
+WITH LOGIN
+PASSWORD 'REPLACE_WITH_A_STRONG_PASSWORD';
+```
+
+(requires postgres version of at least 14)
+```
+GRANT pg_read_all_data TO backup_user;
+```
+
+then for each database you need to grant connection rights:
+```
+GRANT CONNECT ON DATABASE myapp TO backup_user;
+GRANT CONNECT ON DATABASE analytics TO backup_user;
+-- and so on for all databases you want to backup...
+```
+
+then you can:
+```
+pg_dumpall -h YOUR_HOST -U backup_user --file=full_backup.sql
+```
+
+
+---
+
 # Postgesql
 
 ## Install

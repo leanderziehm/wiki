@@ -11,7 +11,6 @@
 * [Podman](podman.md)
 * [Reverse Proxy setup](nginx.md)
 * [Firewall](archive/04-system-administration/firewall.md)
-* [Postgesql](postgesql-on-linux.md)
 * [Cloud](cloud.md)
 * [Apps](apps.md)
 

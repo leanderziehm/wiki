@@ -1,7 +1,35 @@
 ---
 sidebar_position: 1
 ---
+
+#### 2026-10-13
+
+6:16PM  
+todo: unlock bootloader for redmi note 7
+todo: android apk build with cli only
+todo: android linux vms
+
 #### 2026-10-03
+
+03:42
+https://ui.shadcn.com/docs/components/base/sidebar
+
+22:13
+
+i am going outside now and when i come back then astro shadcn and pdfs zotero and wash hair.
+
+
+what are the best free and open source places to find papers? google scholar and arxiv anything else?
+what are the best ai tools for finding good references?
+what are the best tts models that run locally on cpu fast and sound good? kokoro, piper, espeak, festival...
+pdf -> text -> manually filter with regex -> text to tts -> listen and mark pdf and save marks to obsidian. 
+what marking tool to use? also obsidian? zotero?
+
+pdf zotero tts
+sidebar nice
+cool ui containerized web apps
+astro shadcn
+
 
 
 21:58
