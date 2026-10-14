@@ -8,7 +8,6 @@
 
 * [Networking](archive/04-system-administration/networking.md)
 * [SSH Server](ssh.md)
-* [Podman](podman.md)
 * [Reverse Proxy setup](nginx.md)
 * [Firewall](archive/04-system-administration/firewall.md)
 * [Cloud](cloud.md)

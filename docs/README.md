@@ -15,9 +15,19 @@ Hello everyone! These are my notes. Think of this as a personal mini-wiki: a pla
 | [https://todo.leanderziehm.com/](https://todo.leanderziehm.com/)     | [https://todo-api.leanderziehm.com/docs](https://todo-api.leanderziehm.com/docs) | [https://github.com/LeanderZiehm/todo-web-app](https://github.com/LeanderZiehm/todo-web-app)                                      | Todo and short reminders web app.         |
 | [https://images.leanderziehm.com/](https://images.leanderziehm.com/) |                                                                                  | [https://github.com/LeanderZiehm/apis/tree/main/03\_image-s3-api](https://github.com/LeanderZiehm/apis/tree/main/03_image-s3-api) | images view                               |
 | [https://notes.leanderziehm.com/](https://notes.leanderziehm.com/)   | [https://github.com/LeanderZiehm/blogs](https://github.com/LeanderZiehm/blogs)   | [https://github.com/LeanderZiehm/notes\_hosted\_docusaurus](https://github.com/LeanderZiehm/notes_hosted_docusaurus)              | Hosting my notes online using docusaurus. |
+| https://cve-overview.leanderziehm.com/                               |                                                                                  |                                                                                                                                   |                                           |
 
+
+# Dev commands
+
+```
+bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leanderziehm/devops.git
+```
 
 ## Infrastructure:
+
+https://github.com/leanderziehm/cloudflare
+
 
 1 vm for trow away stuff with own database.
 

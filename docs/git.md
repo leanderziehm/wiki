@@ -1,4 +1,15 @@
 
+
+custom tool:
+
+```
+bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leanderziehm/devops.git
+```
+
+
+
+
+
 setup username and email:
 ```sh
 git config --global user.name "Your Name"

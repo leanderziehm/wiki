@@ -4,6 +4,12 @@ sidebar_position: 1
 
 #### 2026-10-13
 
+6:47PM  
+todo: backup user for database to fix automatic backups.
+todo: notificaiton on login on database server and a nice send script i can just call.
+
+
+
 6:16PM  
 todo: unlock bootloader for redmi note 7
 todo: android apk build with cli only

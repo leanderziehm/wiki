@@ -1,4 +1,33 @@
 
+## compose examples
+
+
+```yml
+services:
+  db:
+    image: postgres:18
+    container_name: postgres_db
+    restart: unless-stopped
+    # env_file: .env
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-postgres}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql
+
+volumes:
+  postgres_data:
+    name: ${POSTGRES_VOLUME:-postgres_volume}
+
+# networks:
+#   postgres_net:
+#     driver: bridge
+```
+
+
 
 go into container 
 ```
@@ -39,6 +68,212 @@ work() {
 }
 ```
 
+
+
+# Podman
+
+I liked docker but when researching more about securety the systematic design of podman to be rootless by default thereby making it more secure against exploits won me over.
+
+### Install
+
+```
+sudo apt install podman
+```
+
+## Postgres
+
+```
+podman run --replace --name pg18 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5432:5432 -v pg18data:/var/lib/postgresql -d docker.io/library/postgres:18
+```
+
+
+
+## Test Container
+
+```
+podman run -p 8321:8321 ghcr.io/leanderziehm/container-example-cicd:latest
+```
+
+
+
+## Tailscale
+
+```
+podman network create tailscaled-network
+```
+
+```
+podman run --replace --restart=unless-stopped --network tailscaled-network -d --name=tailscaled -e TS_AUTHKEY=tskey-auth-abc... -e TS_STATE_DIR=/var/lib/tailscale -e TS_USERSPACE=true -v tailscale-state:/var/lib/tailscale -e TS_HOSTNAME=tailscale-container docker.io/tailscale/tailscale:v1.102.3
+```
+
+```
+podman run --name x --replace --network tailscaled-network -d ghcr.io/leanderziehm/container-example-cicd:latest
+```
+
+## Elastic Search
+
+
+
+
+
+
+
+## Grafana
+
+
+
+
+
+
+
+
+
+## Security: Drop Capabilities
+
+
+
+```
+# Drop all capabilities - the container runs with no Linux capabilities
+podman run --rm \
+  --cap-drop ALL \
+  docker.io/library/alpine:latest \
+  sh -c "echo 'Running with no capabilities'"
+
+# Drop all, then add back only what is needed
+# This follows the principle of least privilege
+podman run --rm \
+  --cap-drop ALL \
+  --cap-add NET_BIND_SERVICE \
+  docker.io/library/alpine:latest \
+  sh -c "apk add --no-cache libcap && getpcaps 1"
+```
+
+
+
+
+
+
+
+
+
+donloawnload image and upload it.
+
+```
+# Save the image to a tar file
+docker save bytebase/bytebase:latest > bytebase-latest.tar
+
+# Transfer the tar file to your target environment
+# Then load it on the target system
+docker load < bytebase-latest.tar
+
+# Tag and push as described above
+docker tag bytebase/bytebase:latest your-registry.acme.com/library/bytebase:latest
+docker push your-registry.acme.com/library/bytebase:latest
+```
+
+
+
+
+
+## Commands
+
+example oneliners:
+
+```
+podman images
+```
+
+```
+podman system df
+```
+
+```
+podman run -it --entrypoint sh localhost/api-kv:latest
+```
+
+```
+podman kill $(podman ps -q)
+```
+
+```
+podman run -it docker.io/library/debian:13 /bin/bash
+```
+
+```
+podman run -it --systemd=always --privileged docker.io/library/debian:13 /bin/bash
+```
+
+```
+podman inspect wordpress-stack_db_1 | grep -i MYSQL
+```
+
+```
+podman ps -a
+```
+
+```
+podman exec -it <container_id_or_name> /bin/bash
+```
+
+```
+podman run --name pg16 \
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_USER=postgres \
+  -e POSTGRES_DB=postgres \
+  -p 5432:5432 \
+  -v pgdata:/var/lib/postgresql/data \
+  -d docker.io/library/postgres:16
+```
+
+```
+podman volume ls
+```
+
+```
+podman cp full_recovery_20260530_160846.sql pg16:/tmp/dump.sql
+```
+
+```
+podman exec -it pg16 psql -U postgres -f /tmp/dump.sql
+```
+
+```
+podman logs pg16
+```
+
+```
+podman exec -it pg16 bash
+```
+
+```
+podman exec -e MYSQL_PWD=password-here wordpress-stack_db_1 mysqldump -u user-here --single-transaction --routines --triggers --no-tablespaces databse-here > wordpress_backup.sql
+```
+
+***
+
+```
+podman pull docker.io/kalilinux/kali-rolling
+podman inspect --format='{{index .RepoDigests 0}}' kalilinux/kali-rolling
+```
+
+## Podman Compose Examples:
+
+```
+sudo apt install podman-compose
+```
+
+
+## Setup docker repos
+
+if you want smoother docker compatebility change the config to default to docker repos:
+
+```
+sudo vim /etc/containers/registries.conf
+```
+
+```
+unqualified-search-registries = ["docker.io"]
+```
 
 
 
