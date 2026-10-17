@@ -8,9 +8,12 @@ sidebar_position: 90
 
 #### 2026-10-17
 
+9:59PM  
+spell check cli.  
+
 generate a automatic tables of contents on push to github repo. github action so that people can get a quick overview of all my notes. 
 
-add rich text paste to markdown and copy as md.&#x20;
+add rich text paste to markdown and copy as md
 
 [https://github.com/leanderziehm/quick-text-tools-web](https://github.com/leanderziehm/quick-text-tools-web)
 
