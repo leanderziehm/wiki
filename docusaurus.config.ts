@@ -9,8 +9,11 @@ const config: Config = {
   future: {
     v4: true,
   },
-  markdown: {
-    format: 'md',
+  // markdown: {
+  //   format: 'md',
+  // },
+    markdown: {
+    format: 'detect',
   },
 
     scripts: [
@@ -63,7 +66,23 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [require.resolve('docusaurus-lunr-search'),
+    () => ({
+      name: 'webpack-raw-imports',
+      configureWebpack() {
+        return {
+          module: {
+            rules: [
+              {
+                resourceQuery: /raw/,
+                type: 'asset/source',
+              },
+            ],
+          },
+        };
+      },
+    }),
+  ],
 
   themeConfig: {
     colorMode: {
