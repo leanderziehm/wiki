@@ -8,6 +8,21 @@ raise Exception("Sorry, no numbers below zero")
 
 ## Fastapi
 
+
+cors:
+```
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+```
+
+swagger:
 ```
 from fastapi.openapi.docs import get_swagger_ui_html
 
@@ -18,6 +33,8 @@ async def custom_swagger_ui():
     return get_swagger_ui_html(openapi_url="/openapi.json", title="API Docs")
 
 ```
+
+
 
 ## Pandas
 

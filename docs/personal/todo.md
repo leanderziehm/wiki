@@ -50,7 +50,7 @@ https://ui.shadcn.com/docs/components/base/sidebar
 
 22:13
 
-i am going outside now and when i come back then astro shadcn and pdfs zotero and wash hair.
+i am going outside now and when i come back then astro shadcn and pdfs zotero.
 
 
 what are the best free and open source places to find papers? google scholar and arxiv anything else?
@@ -247,7 +247,6 @@ today i setup obsidian theme, backup to github, selfhosted ntfy, jellifin, navid
 wezterm as scratchpad that loads vim on start. vim and wez configs.
 podman workspace persistent volume
 sd card formated and cleaned music 
-(disposed trash, washed hair, went for walk, called kinnari, washed clothes, yt, music, tras food)
 (keyboard shortcuts notes.)
 
 
