@@ -1,4 +1,45 @@
-# SSH Server
+# SSH 
+
+
+generate ssh key:
+```
+ssh-keygen
+```
+change passphrase:
+
+```shell
+ssh-keygen -p -f ~/.ssh/id_ed25519
+```
+
+
+~/.ssh folder
+
+`config` `authorized_keys` `known_hosts` 
+
+
+## SSH Config
+
+vim \~/.ssh/config
+
+```
+Host shortname
+    HostName 100.100.100.100
+    User ubuntu
+    IdentityFile ~/.ssh/private-key-filename.key
+```
+
+
+add key to authorized keys to ssh from antoher device into target device:
+
+```
+public_key >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys
+```
+
+
+
+
+
 
 #### Install SSH Server
 
@@ -45,32 +86,6 @@ then restart ssh demon with
 ```
 sudo systemctl restart sshd
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## SSH Tunneling User
 
@@ -196,12 +211,6 @@ http://localhost:5601
 
 ***
 
-
-
-
-
-
-
 ## SSH Client
 
 
@@ -220,22 +229,8 @@ secure algorithm:
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-change passphrase:
 
-```shell
-ssh-keygen -p -f ~/.ssh/id_ed25519
-```
 
-## SSH Config
-
-vim \~/.ssh/config
-
-```
-Host shortname
-    HostName 100.100.100.100
-    User ubuntu
-    IdentityFile ~/.ssh/private-key-filename.key
-```
 
 ## SSH Agent
 

@@ -5,6 +5,26 @@ sidebar_position: 0
 
 # Welcome to My Notes
 
+I use this page to document my tech journey, commands, configs and more. I use it on a daily basis to for snippets and commands. It's a glimpse into my daily life. Enjoy :)
+
+
+
+
+quick clone a private github repo with a per repo scoped deploy key for securety to avoid single point of failure in case your prive ssh key gets stolen through malitions cli or install script:
+
+```
+bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leanderziehm/devops.git
+```
+
+
+
+# Index
+
+configs:  [configs](configs/index.mdx)  
+containers:  [containers](docs/containers.md)
+
+
+
 Hello everyone! These are my notes. Think of this as a personal mini-wiki: a place where I document useful information and favorites publicly so that I can access them from anywhere in the world without needing to login. Hopefully, you’ll find something useful here as well.
 
 
@@ -18,11 +38,6 @@ Hello everyone! These are my notes. Think of this as a personal mini-wiki: a pla
 | https://cve-overview.leanderziehm.com/                               |                                                                                  |                                                                                                                                   |                                           |
 
 
-# Dev commands
-
-```
-bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leanderziehm/devops.git
-```
 
 ## Infrastructure:
 
