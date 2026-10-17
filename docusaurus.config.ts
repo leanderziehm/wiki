@@ -12,7 +12,6 @@ const config: Config = {
     markdown: {
     format: 'detect',
   },
-
     scripts: [
     {
       src: 'https://u.leanderziehm.com/script.js',
@@ -24,6 +23,10 @@ const config: Config = {
       defer: true,
     }
   ],
+    clientModules: [
+    require.resolve('./src/clientModules/arrow_shortcuts.ts'),
+  ],
+
 
   url: 'https://docs.leanderziehm.com',
   baseUrl: '/',
