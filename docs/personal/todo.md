@@ -3,6 +3,31 @@ sidebar_position: 1
 ---
 # Todo
 
+
+
+
+#### 2026-10-17
+
+add rich text paste to markdown and copy as md.&#x20;
+
+[https://github.com/leanderziehm/quick-text-tools-web](https://github.com/leanderziehm/quick-text-tools-web)
+
+github actions to lamda.
+
+use r2 clouldflare storage more.
+
+selfhost my own kubernetes cluster:
+[https://github.com/kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+
+improve my todo app:
+filter by time range, show creation date and update date. in all have auto scroll down pagination?
+
+improve my image app:
+add tags to filter by and search free text, auto scroll pagination?
+
+improve notes hosting:
+maybe automatic syntax highlighting for code snippets
+
 #### 2026-10-13
 
 6:47PM  
