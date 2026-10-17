@@ -9,9 +9,6 @@ const config: Config = {
   future: {
     v4: true,
   },
-  // markdown: {
-  //   format: 'md',
-  // },
     markdown: {
     format: 'detect',
   },

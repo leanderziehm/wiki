@@ -3,7 +3,7 @@ slug: /
 sidebar_position: 0
 ---
 
-# Welcome to My Notes
+# welcome to my notes
 
 I use this page to document my tech journey, commands, configs and more. I use it on a daily basis to for snippets and commands. It's a glimpse into my daily life. Enjoy :)
 
@@ -18,39 +18,18 @@ bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leander
 
 
 
-# Index
+# index
 
 configs:  [configs](configs/index.mdx)  
-containers:  [containers](docs/containers.md)
+containers:  [containers](docs/containers.md)  
+projects:  [projects](projects/index.md)  
+keyboard-shortcuts:  [keyboard-shortcuts](favorites/keyboard-shortcuts.md)  
 
 
 
 Hello everyone! These are my notes. Think of this as a personal mini-wiki: a place where I document useful information and favorites publicly so that I can access them from anywhere in the world without needing to login. Hopefully, you’ll find something useful here as well.
 
 
-## Projects:
-
-| Frontend                                                             | Backend API                                                                      | Code                                                                                                                              | Description                               |
-| -------------------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
-| [https://todo.leanderziehm.com/](https://todo.leanderziehm.com/)     | [https://todo-api.leanderziehm.com/docs](https://todo-api.leanderziehm.com/docs) | [https://github.com/LeanderZiehm/todo-web-app](https://github.com/LeanderZiehm/todo-web-app)                                      | Todo and short reminders web app.         |
-| [https://images.leanderziehm.com/](https://images.leanderziehm.com/) |                                                                                  | [https://github.com/LeanderZiehm/apis/tree/main/03\_image-s3-api](https://github.com/LeanderZiehm/apis/tree/main/03_image-s3-api) | images view                               |
-| [https://notes.leanderziehm.com/](https://notes.leanderziehm.com/)   | [https://github.com/LeanderZiehm/blogs](https://github.com/LeanderZiehm/blogs)   | [https://github.com/LeanderZiehm/notes\_hosted\_docusaurus](https://github.com/LeanderZiehm/notes_hosted_docusaurus)              | Hosting my notes online using docusaurus. |
-| https://cve-overview.leanderziehm.com/                               |                                                                                  |                                                                                                                                   |                                           |
-
-
-
-## Infrastructure:
-
-https://github.com/leanderziehm/cloudflare
-
-
-1 vm for trow away stuff with own database.
-
-1 vm for prod apps custom code (java)
-
-1 vm for prod database
-
-1 vm for container umami with its own database and maybe other apps with own db?
 
 
 

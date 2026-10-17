@@ -2,6 +2,9 @@
 sidebar_position: 2
 ---
 
+# Favorite Keyboard Shortcuts
+
+
 | shortcut         | action                           | software         | type   |
 | ---------------- | -------------------------------- | ---------------- | ------ |
 | super + i        | settings                         | kde              |        |
