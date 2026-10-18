@@ -2,5 +2,6 @@
   "cssTheme": "Obsidianite",
   "enabledCssSnippets": [
     "hide_ui_elements"
-  ]
+  ],
+  "showViewHeader": true
 }

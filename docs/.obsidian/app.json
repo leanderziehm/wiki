@@ -12,5 +12,6 @@
     "editor:toggle-italics",
     "editor:set-heading-4"
   ],
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "showInlineTitle": false
 }
