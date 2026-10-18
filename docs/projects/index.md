@@ -10,8 +10,10 @@
 | https://share.leanderziehm.com/                                      |                                                                                  |                                                                                                                                   |                                           |
 | https://www.share-web.me/                                            |                                                                                  |                                                                                                                                   |                                           |
 | https://cve-overview.leanderziehm.com/                               |                                                                                  |                                                                                                                                   |                                           |
+| https://frontends.leanderziehm.com/habits/                           |                                                                                  |                                                                                                                                   |                                           |
+| https://frontends.leanderziehm.com/measure/                          |                                                                                  |                                                                                                                                   |                                           |
 
-
+https://test-other-search-new-docusaurus-obsidian.leanderziehm.workers.dev/
 
 [infrastructur](./infrastructure.md)  
 [homelab](./homelab.md)
