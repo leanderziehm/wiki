@@ -45,7 +45,13 @@ git pull --rebase
 ```
 
 
+---
 
+get stats about the size of your clone github repo:
+
+```
+git count-objects -vH
+```
 
 ---
 setup username and email:

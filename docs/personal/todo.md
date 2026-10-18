@@ -17,6 +17,8 @@ merge simplenote notes into docs
 
 selfhost notify and add to https://github.com/leanderziehm/devops/tree/main/others/work-in-progress/notify.sh
 
+todo(this,docs): example output of commands hidden under collapsed dropdown, more footnotes/info collapsed 
+
 #### 2026-10-17
 
 9:59PM  
