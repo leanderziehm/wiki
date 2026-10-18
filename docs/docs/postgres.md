@@ -182,7 +182,7 @@ GRANT CONNECT ON DATABASE odoo TO odoo_user;
 ## Expose Postgres Publicly
 
 {% hint style="danger" %}
-This action is dangerous. Only follow if you follow have strong security practices and you know what you are doing.
+This action is dangerous. Only follow if you have strong security practices and you know what you are doing.
 {% endhint %}
 
 ```

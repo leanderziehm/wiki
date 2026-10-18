@@ -15,6 +15,8 @@ toolbox replacement with podman to no mount .ssh folder
 
 merge simplenote notes into docs
 
+selfhost notify and add to https://github.com/leanderziehm/devops/tree/main/others/work-in-progress/notify.sh
+
 #### 2026-10-17
 
 9:59PM  

@@ -8,26 +8,50 @@ bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com) git@github.com:leander
 
 
 
+---
 
-
-setup username and email:
-```sh
-git config --global user.name "Your Name"
-git config --global user.email "yourname@emailexample.com"
+list recent commit messges:
+```
+git log --oneline
 ```
 
+show most recent commit file diffs:
+```
+git show
+```
 
-remove files from a commit that wasn't pushed yet:
+git uses `less` to paginate text. shortcus: jump to the `G`, search `/`  quit `q`  
 
+
+
+---
+
+undo git commit:
 ```
 git reset --soft HEAD~1
 ```
-
 if the change was already pushed then you can use `git push -f` but its quite dangerous because it could delete progress of other contributors so be careful when using force push.
 
 ```
 git reset --hard HEAD~1
 git logs
+```
+---
+
+pull new commits without conflict:
+
+```
+git pull --rebase
+```
+
+
+
+
+---
+setup username and email:
+```sh
+git config --global user.name "Your Name"
+git config --global user.email "yourname@emailexample.com"
 ```
 
 basics:

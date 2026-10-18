@@ -1,5 +1,13 @@
+# Linux
 
 
+create user:
+
+```
+sudo useradd --create-home --shell /bin/bash newUsernameHere
+```
+
+*useradd is the standard cli way to create a user. there is also adduser but it behaves differently on different linux os. on debian and ubuntu it is interactive in redhat distoros its symlinked to useradd and archlinux doesnt have it.*
 
 
 
