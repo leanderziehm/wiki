@@ -4,7 +4,16 @@ sidebar_position: 90
 # todo
 
 
+#### 2026-10-18
 
+scroll to search term check if word is in view like browser ctrl + f search.
+algolia docs search. or elastic search.
+
+have a vscode extnsion that puts images in folder that is gitignored and uload images to s3 and a CDN content delivery network so that link is in md not in github.
+
+toolbox replacement with podman to no mount .ssh folder
+
+merge simplenote notes into docs
 
 #### 2026-10-17
 
