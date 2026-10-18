@@ -56,6 +56,50 @@ git config --global user.name "yourusername"
 git log --follow --patch -- path/to/file
 ```
 
+
+## Delete Branch 
+
+delete branch locally
+```
+# Delete the branch safely (only works if changes are merged)
+git branch -d branch_name
+```
+
+delete branch from the remote repository
+```
+# Delete the branch from the remote repository
+git push origin --delete branch_name
+```
+
+
+
+
+## Git ssh
+input: 
+git@github.com:leanderziehm/docusaurus_obsidian.git
+
+cd ~/.ssh/github
+ssh-keygen 
+filname: docusaurus_obsidian
+
+cd ~/dev/
+git clone 
+```
+GIT_SSH_COMMAND='ssh -i ~/.ssh/github/docusaurus_obsidian -o IdentitiesOnly=yes' git clone git@github.com:leanderziehm/docusaurus_obsidian.git
+```
+
+cd project folder
+```
+git config core.sshCommand "ssh -i ~/.ssh/github/docusaurus_obsidian -o IdentitiesOnly=yes"
+```
+
+
+
+
+
+
+
+
 ### Vscode Problems
 
 sometimes vscode does a bunch of requests to the git server with the wrong credentials and then the firewall blocks you for some hours. So better to use git mostly over cli with ssh. TODO research more.
