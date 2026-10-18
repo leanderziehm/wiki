@@ -20,7 +20,8 @@ containers:  [containers](docs/containers.md)
 projects:  [projects](projects/index.md)  
 keyboard-shortcuts:  [keyboard-shortcuts](favorites/keyboard-shortcuts.md)   
 overview:  [overview](archive/SUMMARY.md)  
-
+my-main-git-repos:  [my main git repos](personal/my-main-git-repos.md)  
+ 
 
 
 
