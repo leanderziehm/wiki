@@ -9,7 +9,8 @@ sidebar_position: 90
 #### 2026-10-17
 
 9:59PM  
-spell check cli.  
+markdown noteboo with cells that can execute bash: jupytext, quarto
+spell check cli: language tool
 
 generate a automatic tables of contents on push to github repo. github action so that people can get a quick overview of all my notes. 
 
