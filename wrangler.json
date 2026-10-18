@@ -2,7 +2,7 @@
   "name": "docusaurus-obsidian",
   "compatibility_date": "2026-10-18",
   "assets": {
-    "directory": "./dist",
+    "directory": "./build",
     "not_found_handling": "404-page"
   },
   "previews": {}
