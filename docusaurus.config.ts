@@ -70,7 +70,8 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-  plugins: [require.resolve('docusaurus-lunr-search'),
+  plugins: [
+    //require.resolve('docusaurus-lunr-search'),
     () => ({
       name: 'webpack-raw-imports',
       configureWebpack() {
