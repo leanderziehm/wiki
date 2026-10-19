@@ -3,6 +3,18 @@ sidebar_position: 90
 ---
 # todo
 
+#### 2026-10-19
+
+https from scratch.
+
+e2e encryption sse notepad
+
+self host hashicorp vault
+audit log. splunk. grafana.
+
+vpn. wireguard.
+
+mtls
 
 #### 2026-10-18
 
