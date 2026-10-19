@@ -15,5 +15,8 @@
 
 https://test-other-search-new-docusaurus-obsidian.leanderziehm.workers.dev/
 
-[infrastructur](./infrastructure.md)  
-[homelab](./homelab.md)
+
+
+https://notes-static.leanderziehm.com/
+
+https://frontends.leanderziehm.com/texts/
