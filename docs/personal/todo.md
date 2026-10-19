@@ -1,9 +1,12 @@
 ---
 sidebar_position: 90
 ---
+
 # todo
 
 #### 2026-10-19
+
+android adb logs view, proot install rootfs app = container
 
 https from scratch.
 
