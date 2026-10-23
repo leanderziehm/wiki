@@ -19,6 +19,19 @@ vpn. wireguard.
 
 mtls
 
+rootfs tarball for android using proot arm  
+compile proot from source for arm.
+
+android app port open 
+proot, dropbear, 
+
+jdk 17
+android sdk manager
+
+
+selfhost pasebin on oracle for faster startup time.
+
+
 #### 2026-10-18
 
 scroll to search term check if word is in view like browser ctrl + f search.
