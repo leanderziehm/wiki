@@ -20,6 +20,9 @@ sudo usermod -aG wheel newUsernameHere
 ```
 *on Ubuntu/Debian the group is called sudo*
 
+```
+userdbctl
+```
 
 
 #### Folder Structure
