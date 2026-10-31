@@ -1,66 +1,4 @@
-# vim
-
-
-
-fix tab sizing:
-
-```
-:set tabstop=4
-```
-
-or
-
-```
-set shiftwidth=2 smarttab
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-***
-
-## Neovim
+# Neovim
 
 `Lazyvim` and `Nvim Kikstart` are a good way to begin your neovim journey.
 
@@ -161,9 +99,5 @@ you just need the `init.lua` and copy it into `~/.config/nvim/init.lua`&#x20;
 
 
 
-
-
-
-
-
-
+rm -rf ~/.var/app/io.neovim.nvim/config/nvim
+ln -s ~/.config/nvim ~/.var/app/io.neovim.nvim/config/nvim

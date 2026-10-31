@@ -8,24 +8,21 @@ sidebar_position: 0
 Hello and everyone to my wiki:  
 This page documents my tech journey, useful commands, configs and more. I use it as a daily driver to access snippets and commands from anywhere in the world without needing to login. Enjoy :)
 
+---
 
-
-
-
-# index
-
-###### main:
+**Personal:**  
 projects:  [projects](./personal/projects.md)  
+keyboard-shortcuts:  [keyboard-shortcuts](./personal/keyboard-shortcuts.md)   
+configs:  [configs](./personal/configs/index.mdx)  
 commands:  [commands](./personal/commands.md)  
 
-configs:  [configs](./personal/configs/index.mdx)  
+**Docs:**  
 containers:  [containers](./docs/containers.md)  
 
+**Editors:**  
+obsidian: [obsidian](./docs/obsidian.md)  
+vscode: [vscode](./docs/vscode.md)  
+vim: [vim](./docs/vim.md)
 
-keyboard-shortcuts:  [keyboard-shortcuts](./personal/favorites/keyboard-shortcuts.md)   
-overview:  [overview](./archive/SUMMARY.md) 
- 
-
-
-
-
+**Archive:**  
+archive-overview:  [overview](./archive/SUMMARY.md) 
