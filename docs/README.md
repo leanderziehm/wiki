@@ -14,13 +14,16 @@ This page documents my tech journey, useful commands, configs and more. I use it
 
 # index
 
-commands:  [commands](commands.md)  
-configs:  [configs](index.mdx)  
-containers:  [containers](docs/containers.md)  
-projects:  [projects](projects.md)  
-keyboard-shortcuts:  [keyboard-shortcuts](keyboard-shortcuts.md)   
-overview:  [overview](archive/SUMMARY.md)  
-my-main-git-repos:  [my main git repos](personal/my-main-git-repos.md)  
+###### main:
+projects:  [projects](./personal/projects.md)  
+commands:  [commands](./personal/commands.md)  
+
+configs:  [configs](./personal/configs/index.mdx)  
+containers:  [containers](./docs/containers.md)  
+
+
+keyboard-shortcuts:  [keyboard-shortcuts](./personal/favorites/keyboard-shortcuts.md)   
+overview:  [overview](./archive/SUMMARY.md) 
  
 
 
