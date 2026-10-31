@@ -8,19 +8,20 @@
       "key": "B"
     }
   ],
-  "switcher:open": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "P"
-    }
-  ],
+  "switcher:open": [],
   "command-palette:open": [
     {
       "modifiers": [
         "Mod",
         "Shift"
+      ],
+      "key": "P"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
       ],
       "key": "P"
     }
