@@ -15,6 +15,7 @@ projects:  [projects](./personal/projects.md)
 keyboard-shortcuts:  [keyboard-shortcuts](./personal/keyboard-shortcuts.md)   
 configs:  [configs](./personal/configs/index.mdx)  
 commands:  [commands](./personal/commands.md)  
+infra
 
 **Docs:**  
 containers:  [containers](./docs/containers.md)  

@@ -3,14 +3,7 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
   "mobileToolbarCommands": [
-    "editor:undo",
-    "editor:redo",
-    "editor:configure-toolbar",
-    "insert-current-date",
-    "insert-current-time",
-    "editor:toggle-bold",
-    "editor:toggle-italics",
-    "editor:set-heading-4"
+    "editor:insert-table"
   ],
   "propertiesInDocument": "hidden",
   "showInlineTitle": false
