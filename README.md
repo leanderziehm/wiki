@@ -1,4 +1,11 @@
-# Website
+# Wiki
+
+
+site: https://wiki.leanderziehm.com
+
+md:  [wiki](./docs/README.md)  
+
+---
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
