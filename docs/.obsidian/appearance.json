@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "hide_ui_elements"
   ],
-  "showViewHeader": true
+  "showViewHeader": true,
+  "baseFontSize": 14
 }

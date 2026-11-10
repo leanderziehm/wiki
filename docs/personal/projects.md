@@ -14,21 +14,31 @@
 | https://frontends.leanderziehm.com/measure/                          |                                                                                  |                                                                                                                                   |                                           |
 
 https://test-other-search-new-docusaurus-obsidian.leanderziehm.workers.dev/
-
-
-
-https://notes-static.leanderziehm.com/
-
-https://frontends.leanderziehm.com/texts/
-
+https://notes-static.leanderziehm.com 
+https://frontends.leanderziehm.com/texts/ 
 https://notify.leanderziehm.com/docs
-
-
-
-
-
-# my main git repos
 
 | Repo                                             | Name   | Notes                                                                         |
 | ------------------------------------------------ | ------ | ----------------------------------------------------------------------------- |
 | https://github.com/leanderziehm/devops/tree/main | devops | stores my infrastructure as code, dev environment containers and script utils |
+
+
+**project areas:**
+data science: 
+* housing availability, pricing, trust
+* population distribution movements, age, nationality, gender
+* job positions 
+security:
+* cve notifications and tracking, updates
+* pentesting for better security understanding 
+* iam enterprise authentication 
+art:
+* visualizing, drawing dreams
+
+
+**projects todo:**
+linux from scratch.
+get a website up and running with google ads
+
+**project ideas:**
+

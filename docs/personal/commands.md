@@ -7,24 +7,24 @@ clone git repo:
 bash <(curl -fsSL https://git-ssh-quick.leanderziehm.com)
 ```
 
-run postgres: 
-```sh
-podman run --replace --name pg18 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5432:5432 -v pg18data:/var/lib/postgresql -d docker.io/library/postgres:18
-```
-
 generate password:
 ```sh
 tr -dc 'A-Za-z0-9' < /dev/urandom | head -c 64; echo
 ```
 
+**containers:**
+run postgres: 
+```sh
+podman run --replace --name pg18 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5432:5432 -v pg18data:/var/lib/postgresql -d docker.io/library/postgres:18
+```
 
-
-
-
----
+run nginx:
+```sh
+podman run -p 2080:80 -d docker.io/library/nginx:stable  
+```
 
 run test container:
-```
+```sh
 podman run -p 8321:8321 ghcr.io/leanderziehm/container-example-cicd:latest
 ```
 
@@ -32,5 +32,3 @@ podman run -p 8321:8321 ghcr.io/leanderziehm/container-example-cicd:latest
 
 
 
-sudo echo 'user:100000:65536' >> /etc/subuid
-sudo echo 'user:100000:65536' >> /etc/subgid

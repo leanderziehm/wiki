@@ -3,7 +3,14 @@
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
   "mobileToolbarCommands": [
-    "editor:insert-table"
+    "editor:insert-codeblock",
+    "editor:insert-table",
+    "editor:insert-footnote",
+    "editor:configure-toolbar",
+    "editor:toggle-code",
+    "editor:paste",
+    "editor:undo",
+    "editor:redo"
   ],
   "propertiesInDocument": "hidden",
   "showInlineTitle": false
