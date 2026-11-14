@@ -11,18 +11,16 @@ This page documents my tech journey, useful commands, configs and more. I use it
 ---
 
 **Pinned:**
-commands:  [commands](./personal/commands.md)
-firewall: [firewall](./docs/firewall.md)
-vpn: [vpn](./docs/vpn.md)
+commands:  [commands](./personal/commands.md)  
+firewall: [firewall](./docs/firewall.md)  
+vpn: [vpn](./docs/vpn.md)  
+termux:[[termux]]
 
+os: [os](./docs/os/README.md)
 
+repos: [repos](./personal/repos.md)
 
-activism: [activism](./personal/activism.md)
-
----
-
-**Personal:**  
-goals: [goals](./personal/goals.md)
+goals: [goals](./personal/goals.md)  
 projects:  [projects](./personal/projects.md)  
 keyboard-shortcuts:  [keyboard-shortcuts](./personal/keyboard-shortcuts.md)   
 configs:  [configs](./personal/configs/index.mdx)  
@@ -35,6 +33,10 @@ containers:  [containers](./docs/containers.md)
 obsidian: [obsidian](./docs/obsidian.md)  
 vscode: [vscode](./docs/vscode.md)  
 vim: [vim](./docs/vim.md)
+
+
+activism: [activism](./personal/activism.md)
+
 
 **Archive:**  
 archive-overview:  [overview](./archive/SUMMARY.md) 

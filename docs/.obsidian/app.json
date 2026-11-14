@@ -4,11 +4,11 @@
   "readableLineLength": true,
   "mobileToolbarCommands": [
     "editor:insert-codeblock",
-    "editor:insert-table",
-    "editor:insert-footnote",
-    "editor:configure-toolbar",
-    "editor:toggle-code",
+    "editor:toggle-bold",
+    "editor:indent-list",
     "editor:paste",
+    "editor:configure-toolbar",
+    "editor:insert-table",
     "editor:undo",
     "editor:redo"
   ],

@@ -28,7 +28,7 @@
 * [Go](./03-programming-languages/go.md)
 * [Java](./03-programming-languages/java/README.md)
   * [Spring Boot Java](./03-programming-languages/java/spring-boot.md)
-* [SQL](./03-programming-languages/sql.md)
+* [SQL](sql.md)
 
 ## 01-Full-Stack
 
@@ -106,7 +106,7 @@
 ## 10-Computer-Science-Concepts
 
 * [Eponymous Laws](./10-computer-science-concepts/eponymous-laws.md)
-* [Databases](./10-computer-science-concepts/databases.md)
+* [Databases](README.md.md)
 * [Compilers](./10-computer-science-concepts/compilers.md)
 * [Errors](./10-computer-science-concepts/errors.md)
 * [Input Validation](./10-computer-science-concepts/input-validation.md)
@@ -117,7 +117,7 @@
   * [HTML](./10-computer-science-concepts/file-formats/html.md)
 * [Application Layer Protocolls](./10-computer-science-concepts/application-layer-protocolls/README.md)
   * [OpenAPI](./10-computer-science-concepts/application-layer-protocolls/openapi.md)
-  * [GraphQL](./10-computer-science-concepts/application-layer-protocolls/graphql.md)
+  * [GraphQL](graphql.md)
   * [MIME Media types](./10-computer-science-concepts/application-layer-protocolls/media-types.md)
   * [7 HTTP(S)](./10-computer-science-concepts/application-layer-protocolls/http/README.md)
     * [HTTP Status Codes](./10-computer-science-concepts/application-layer-protocolls/http/http-status-codes.md)
@@ -146,8 +146,8 @@
   * [Voice & Video](./10-computer-science-concepts/ai/voice-and-video.md)
   * [Free AI Code-Agents](./10-computer-science-concepts/ai/ai-web-app-creators.md)
 * [OS](./10-computer-science-concepts/os/README.md)
-  * [Windows](./10-computer-science-concepts/os/windows.md)
-  * [Android](./10-computer-science-concepts/os/android/README.md)
+  * [Windows](docs/os/windows.md)
+  * [Android](docs/os/android/README.md)
 * [Reverse-Engineering](./10-computer-science-concepts/reverse-engineering/README.md)
   * [Ghidra](./10-computer-science-concepts/reverse-engineering/ghidra.md)
 
