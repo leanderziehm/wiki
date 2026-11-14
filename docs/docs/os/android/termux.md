@@ -67,6 +67,9 @@ cd /storage/self/primary/Documents/termux-files/
 ```
 run:
         proot-distro login fedora --isolated
+        
+w wiki:
+        cd storage/shared/Documents/wiki/ && git add . && git commit - "+" && git push
 
 y yt:
         proot-distro login fedora --isolated -- bash -c 'export PATH="/root/.local/bin:$$PATH" && cd yt-downloader-web-app && make u'
