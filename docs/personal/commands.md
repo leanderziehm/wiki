@@ -17,10 +17,6 @@ run postgres:
 ```sh
 podman run --replace --name pg18 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5432:5432 -v pg18data:/var/lib/postgresql -d docker.io/library/postgres:18
 ```
-run nginx:
-```sh
-podman run -p 2080:80 -d docker.io/library/nginx:stable  
-```
 
 run tts container:
 ```
@@ -30,6 +26,25 @@ podman run -p 8000:8000 ghcr.io/leanderziehm/espeak-api:latest
 run pdf to markdown container:
 ```
 podman run -p 8001:8000 ghcr.io/leanderziehm/pdf2md:latest
+```
+
+
+run pdf to markdown container:
+```
+mkdir languagetool-web
+cd languagetool-web
+curl -L -O https://raw.githubusercontent.com/leanderziehm/my-containers/refs/heads/main/projects/languagetool-api/compose.yml
+mkdir -p static conf
+curl -L -o static/index.html https://raw.githubusercontent.com/leanderziehm/my-containers/refs/heads/main/projects/languagetool-api/static/index.html
+curl -L -o conf/nginx.conf https://raw.githubusercontent.com/leanderziehm/my-containers/refs/heads/main/projects/languagetool-api/conf/nginx.conf
+podman compose up
+```
+
+
+
+run nginx:
+```sh
+podman run -p 2080:80 -d docker.io/library/nginx:stable  
 ```
 
 run test container:
