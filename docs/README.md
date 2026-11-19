@@ -10,6 +10,16 @@ This page documents my tech journey, useful commands, configs and more. I use it
 
 ---
 
+links:
+
+espeak tts:
+http://dev-vm.leanderziehm.com:8000/
+
+pdf to markdown:
+http://dev-vm.leanderziehm.com:8001/
+
+---
+
 **Pinned:**
 commands:  [commands](./personal/commands.md)  
 firewall: [firewall](./docs/firewall.md)  
