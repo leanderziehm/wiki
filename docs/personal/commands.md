@@ -18,6 +18,12 @@ run postgres:
 podman run --replace --name pg18 -e POSTGRES_PASSWORD=postgres -e POSTGRES_USER=postgres -e POSTGRES_DB=postgres -p 5432:5432 -v pg18data:/var/lib/postgresql -d docker.io/library/postgres:18
 ```
 
+
+run fileupload api:
+```
+ podman run -p 8000:8000 -v /home/user/foldername:/app/uploadedfiles/:Z ghcr.io/leanderziehm/fileupload-api:latest
+```
+
 run tts container:
 ```
 podman run -p 8000:8000 ghcr.io/leanderziehm/espeak-api:latest
